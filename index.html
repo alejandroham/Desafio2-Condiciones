@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+    <h1>Desafío 2 - Condiciones</h1>
+    <h2>Alejandro Aguirre Mundaca</h2>
+
+    <div class="plantita-container">
+        <img src="assets/img/plantita.png" id="plantita" alt="mostera kawai" onclick="cambioestilo()">
+    </div>
+
+    <div class="galeria">
+        <div class="item">
+            <img src="assets/img/geekindise.png" alt="Imagen 1">
+            <input type="number" id="sticker1" placeholder="Cantidad de Stickers deseada">
+        </div>
+        <div class="item">
+            <img src="assets/img/slack.png" alt="Imagen 2">
+            <input type="number" id="sticker2" placeholder="Cantidad de Stickers deseada">
+        </div>
+        <div class="item">
+            <img src="assets/img/github.png" alt="Imagen 3">
+            <input type="number" id="sticker3" placeholder="Cantidad de Stickers deseada">
+        </div>
+    </div>
+    <p id="conteo"></p>
+    <button onclick="ventasticker()">Verificar</button>
+    <div class="selector">
+        <div class="item"><select name="n1" id="n1">
+                <option value="" selected>Seleccione un codigo</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select></div>
+        <div class="item"><select name="n2" id="n2">
+                <option value="" selected>Seleccione un codigo</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select></div>
+        <div class="item"><select name="n3" id="n3">
+                <option value="" selected>Seleccione un codigo</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="0">0</option>
+            </select></div>
+    </div>
+    <p id="password"></p>
+    <button onclick="password()">Validar Password</button>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

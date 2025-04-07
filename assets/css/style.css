@@ -1,0 +1,73 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 30px;
+  color: #333;
+}
+
+.plantita-container {
+  margin-bottom: 40px;
+}
+
+#plantita {
+  width: 200px;
+  transition: transform 0.3s ease;
+}
+
+#plantita:hover {
+  transform: scale(1.05);
+}
+.borde-rojo{
+  border: 2px solid red;
+  border-radius: 10px;
+}
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.item img {
+  width: 80%;
+  max-width: 200px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.item input {
+  margin-top: 10px;
+  padding: 8px;
+  width: 80%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.item select {
+
+  margin: 10px 10px;  
+  padding: 8px;
+  gap: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.selector{
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(3, 3fr);
+  max-width: 30px;
+  margin: 30px auto;
+}
